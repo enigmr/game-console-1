@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "symbol-library")(type "KiCad")(uri "${KIPRJMOD}/symbol-library.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32n_u")(type "KiCad")(uri "${KIPRJMOD}/stm32n_u.kicad_sym")(options "")(descr ""))
+)

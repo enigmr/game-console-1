@@ -5,144 +5,6 @@
 	(uuid "334cbab7-b5ea-4b07-8f77-e200c57bdd7a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Motor:Motor_DC"
 			(pin_names
 				(offset 0)
@@ -1181,6 +1043,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbol-library-resistors:RC0402JR-0710KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10K"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-0710KL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbol-library-resistors:RC0402JR-071KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1K"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-071KL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 123.19 123.19)
@@ -1824,73 +1962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 97.79 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e045393-70dc-4911-b82b-216a53acf21a")
-		(property "Reference" "R57"
-			(at 94.488 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 94.234 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c4ecab4-883e-499d-9d4c-26084b83fe39")
-		)
-		(pin "1"
-			(uuid "1d299a36-b23f-4edd-b8cd-36ed3ebdeebc")
-		)
-		(instances
-			(project "main-board"
-				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/ad680993-3156-41a9-bb71-e4719f61fa1c"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbol-library-capacitors:CC0402KRX7R6BB104")
 		(at 144.78 81.28 0)
 		(unit 1)
@@ -2027,32 +2098,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 154.94 107.95 90)
+		(lib_id "symbol-library-resistors:RC0402JR-0710KL")
+		(at 97.79 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7393ab3e-79e9-4d65-b166-f52197a67aaf")
-		(property "Reference" "R58"
-			(at 152.654 105.664 90)
+		(fields_autoplaced yes)
+		(uuid "7a1f18df-6a02-4daa-a9f1-a56bfaaf8878")
+		(property "Reference" "R53"
+			(at 100.33 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 157.734 105.664 90)
+		(property "Value" "10K"
+			(at 100.33 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 107.95 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 107.95 0)
+			(at 97.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2144,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 154.94 107.95 0)
+			(at 97.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,16 +2152,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1240392f-748f-4d1f-80ad-17a01abc392c")
-		)
 		(pin "1"
-			(uuid "d95b8d9c-0a4b-4fa3-9caf-31f0fa41370d")
+			(uuid "951126b4-0e51-4930-bb5c-f53b46d14649")
+		)
+		(pin "2"
+			(uuid "a17fd8ad-e6b6-48c6-93af-0693fc80257a")
 		)
 		(instances
-			(project ""
+			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/ad680993-3156-41a9-bb71-e4719f61fa1c"
-					(reference "R58")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -2237,6 +2311,140 @@
 		)
 	)
 	(symbol
+		(lib_id "symbol-library-resistors:RC0402JR-071KL")
+		(at 203.2 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aed57099-34a2-4ccd-b431-228b9a70915e")
+		(property "Reference" "R55"
+			(at 200.406 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 204.724 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bae186-c2a6-4a2c-9877-c08c3222890f")
+		)
+		(pin "2"
+			(uuid "746fd6ab-b9d0-4f10-b047-4dc80357a39b")
+		)
+		(instances
+			(project "main-board"
+				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/ad680993-3156-41a9-bb71-e4719f61fa1c"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbol-library-resistors:RC0402JR-071KL")
+		(at 154.94 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2801beb-bf3d-4f46-8d7c-dbee63bb9fd4")
+		(property "Reference" "R54"
+			(at 152.146 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 156.464 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b77b32d5-1b01-4774-838d-770a3a1115f9")
+		)
+		(pin "2"
+			(uuid "14a4f9b3-304f-4d52-9fad-4241c1549c12")
+		)
+		(instances
+			(project ""
+				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/ad680993-3156-41a9-bb71-e4719f61fa1c"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbol-library-capacitors:CC0402KRX7R6BB104")
 		(at 90.17 81.28 0)
 		(unit 1)
@@ -2301,73 +2509,6 @@
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/ad680993-3156-41a9-bb71-e4719f61fa1c"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 203.2 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5748c7e-d7aa-4bb8-b9c2-3f4660246b4f")
-		(property "Reference" "R59"
-			(at 199.39 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 205.994 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ffec7ba-b00b-4d2d-b038-efd7417f96a8")
-		)
-		(pin "1"
-			(uuid "e0fe28b7-87b6-4bca-bc19-9deb93540d9c")
-		)
-		(instances
-			(project "main-board"
-				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/ad680993-3156-41a9-bb71-e4719f61fa1c"
-					(reference "R59")
 					(unit 1)
 				)
 			)

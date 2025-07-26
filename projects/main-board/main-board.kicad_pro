@@ -451,7 +451,8 @@
     ],
     "pinned_symbol_libs": [
       "symbol-library",
-      "symbol-library-capacitors"
+      "symbol-library-capacitors",
+      "symbol-library-resistors"
     ]
   },
   "meta": {

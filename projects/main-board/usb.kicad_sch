@@ -5,233 +5,7 @@
 	(uuid "987ea9be-e211-420c-b7c4-eb63de45b428")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbol-library:USB4105-GF-A"
+		(symbol "USB4105-GF-A_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -243,16 +17,16 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "USB4105-GF-A"
+				(at 6.35 -53.34 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "footprint-library:USB4105-GF-A"
+				(at 12.7 -55.118 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -278,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB4105-GF-A_0_1"
+			(symbol "USB4105-GF-A_1_0_1"
 				(rectangle
 					(start 0 0)
 					(end 20.32 -52.07)
@@ -291,7 +65,7 @@
 					)
 				)
 			)
-			(symbol "USB4105-GF-A_1_1"
+			(symbol "USB4105-GF-A_1_1_1"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 2.54)
@@ -591,6 +365,232 @@
 						)
 					)
 					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,6 +1038,7 @@
 		(uuid "70f45fbe-9e2c-47b3-af51-2f830e1040be")
 	)
 	(symbol
+		(lib_name "USB4105-GF-A_1")
 		(lib_id "symbol-library:USB4105-GF-A")
 		(at 151.13 68.58 0)
 		(unit 1)
@@ -1045,25 +1046,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f87da20-a101-46c1-8e86-91276798594e")
-		(property "Reference" "J2"
-			(at 152.4 67.564 0)
+		(uuid "677415f4-ed37-4d80-bc4b-db46fb926b2f")
+		(property "Reference" "J8"
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 155.956 67.31 0)
+		(property "Value" "USB4105-GF-A"
+			(at 157.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 68.58 0)
+		(property "Footprint" "footprint-library:USB4105-GF-A"
+			(at 163.83 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,60 +1091,60 @@
 			)
 		)
 		(pin "A4"
-			(uuid "c87d2fcb-8958-4934-a59a-b95a8752cb08")
-		)
-		(pin "A9"
-			(uuid "5032eade-cafc-4aec-b109-fcf24a6c8eb6")
-		)
-		(pin "B4"
-			(uuid "ae2d4249-788c-4865-b9ac-c4973e11603a")
-		)
-		(pin "B9"
-			(uuid "0134f054-1e5e-41ef-8ece-3f3cb7562041")
-		)
-		(pin "A5"
-			(uuid "87bd4587-2cb0-46a5-9698-c93290a832f6")
+			(uuid "a6e89e26-b7d7-42f0-afc2-916fdd9e133d")
 		)
 		(pin "B5"
-			(uuid "47bb6fdb-6ec7-4fbe-908e-587a18747a93")
+			(uuid "9300dc16-4a6c-4f2c-80db-c4bebe7f49ca")
 		)
 		(pin "A6"
-			(uuid "41689779-c450-46fd-baa0-ffdd5aeeaff6")
+			(uuid "a46f67a1-7d6a-472a-b494-d3e5cab2b90f")
 		)
 		(pin "B6"
-			(uuid "5f399dee-5006-4ba5-9487-afe0c912f840")
+			(uuid "f34ac6f2-76f9-435f-bc74-5592c22584f4")
 		)
 		(pin "A7"
-			(uuid "b28f7a85-6255-4690-8e55-d94483fce0f1")
+			(uuid "9ca96902-9124-49cb-af80-82b1b64ebdf1")
 		)
 		(pin "B7"
-			(uuid "a79e44fc-9004-4f5c-9673-69d93a578e66")
+			(uuid "a8f35f49-0de0-4f22-8f33-a18cab255925")
 		)
 		(pin "A8"
-			(uuid "62b44fa2-462c-4d49-8083-191e5d8171bd")
+			(uuid "4d6499a0-1977-434f-bdd0-bf540d0e597e")
 		)
 		(pin "B8"
-			(uuid "bf1996b2-2510-4081-9454-a360a5ac3b34")
+			(uuid "66b4aade-dcca-4398-93c3-565d3a722684")
 		)
 		(pin "A1"
-			(uuid "73d2ec0b-8b6c-4e83-b587-de3fa2cb4657")
+			(uuid "c96c2331-dfa7-44ad-b65d-1d52fb2a3e54")
 		)
 		(pin "SHELL"
-			(uuid "89278cec-8c3b-457b-9014-5975dc9c49b9")
+			(uuid "f891f7b9-c9ef-4075-8ef2-8c3df775144b")
 		)
 		(pin "B1"
-			(uuid "d1a73c7a-6679-42c8-987a-287e69d5ad7f")
+			(uuid "25f02e8f-c71c-4541-bf73-7cdb0b399354")
 		)
 		(pin "A12"
-			(uuid "636b8c53-0644-4d35-b8d6-cdbaf6481f55")
+			(uuid "d14b4d71-36e8-492d-ae47-4cef7d75028a")
 		)
 		(pin "B12"
-			(uuid "ddc4f004-94c3-4b66-8f13-88e011c6e83e")
+			(uuid "a04243bf-7658-4589-9be1-2d5095c2fc61")
+		)
+		(pin "B4"
+			(uuid "47844cf3-0089-4b24-8587-e1367958453a")
+		)
+		(pin "B9"
+			(uuid "aa9b43dc-f252-4db6-8717-574dd929567e")
+		)
+		(pin "A5"
+			(uuid "cbf16e2d-1ec1-4780-80ff-3896b6d1f06d")
+		)
+		(pin "A9"
+			(uuid "b7e283d5-ca44-4ae3-95e7-31b0a5168703")
 		)
 		(instances
 			(project ""
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/d69ad104-b7d7-4317-8438-c35158ce58f7"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)

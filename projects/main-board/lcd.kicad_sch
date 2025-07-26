@@ -4486,10 +4486,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9b1dec0-b38d-485f-a653-06535d16244b")
 		(property "Reference" "J5"
-			(at 240.03 34.29 0)
+			(at 224.536 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4496,7 @@
 			)
 		)
 		(property "Value" "NHD-4.3-480272EF-ASXP (Molex 54104-4031)"
-			(at 240.03 36.83 0)
+			(at 237.998 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)

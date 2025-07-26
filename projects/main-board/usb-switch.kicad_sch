@@ -1026,7 +1026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3de25c-97d5-47c6-9318-789558354757")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0114"
 			(at 168.91 110.49 0)
 			(effects
 				(font
@@ -1076,7 +1076,7 @@
 		(instances
 			(project ""
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/a8fc3290-2c1b-45f6-84c7-bf573b237fec"
-					(reference "#PWR082")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1093,7 +1093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cb96655-ba54-40a4-9d36-5ae1db18c7a9")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 151.765 77.47 0)
 			(effects
 				(font
@@ -1169,7 +1169,7 @@
 		(instances
 			(project ""
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/a8fc3290-2c1b-45f6-84c7-bf573b237fec"
-					(reference "U4")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1185,7 +1185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833e931c-dd40-41c7-8b32-feb5f87ebe19")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0112"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -1235,7 +1235,7 @@
 		(instances
 			(project ""
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/a8fc3290-2c1b-45f6-84c7-bf573b237fec"
-					(reference "#PWR081")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1251,7 +1251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866cd423-14ad-4826-bf10-c31808661c64")
-		(property "Reference" "C59"
+		(property "Reference" "C74"
 			(at 95.25 87.6362 0)
 			(effects
 				(font
@@ -1305,7 +1305,7 @@
 		(instances
 			(project ""
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/a8fc3290-2c1b-45f6-84c7-bf573b237fec"
-					(reference "C59")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -1321,7 +1321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4455b7-51cb-4fa3-ad36-4f95a7d5f3ed")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0113"
 			(at 92.71 99.06 0)
 			(effects
 				(font
@@ -1371,7 +1371,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/a8fc3290-2c1b-45f6-84c7-bf573b237fec"
-					(reference "#PWR083")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)

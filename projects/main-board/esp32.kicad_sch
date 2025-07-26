@@ -2252,12 +2252,6 @@
 		(uuid "03b3220e-eb03-4ea9-8a85-6f99bead7601")
 	)
 	(junction
-		(at 91.44 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07420861-bc37-4afc-b8b7-dc8b343ed912")
-	)
-	(junction
 		(at 29.21 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2352,6 +2346,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f23a138-f9cf-4c91-95b5-822a0187103d")
+	)
+	(junction
+		(at 92.71 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1433585-6040-4f00-a2d2-5eb630097454")
 	)
 	(junction
 		(at 205.74 24.13)
@@ -3077,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 29.21) (xy 91.44 29.21)
+			(xy 128.27 29.21) (xy 92.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 36.83) (xy 78.74 36.83)
+			(xy 92.71 36.83) (xy 78.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3247,7 +3247,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 29.21) (xy 78.74 29.21)
+			(xy 78.74 29.21) (xy 92.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +3747,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 35.56) (xy 91.44 36.83)
+			(xy 92.71 35.56) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +3897,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 29.21) (xy 91.44 30.48)
+			(xy 92.71 29.21) (xy 92.71 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4291,7 +4291,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 91.44 33.02 0)
+		(at 92.71 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4300,7 +4300,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d5e6b40-4a9d-456c-99ba-b32ef964f817")
 		(property "Reference" "C80"
-			(at 93.98 31.7562 0)
+			(at 95.25 31.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,8 +4308,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
-			(at 93.98 34.2962 0)
+		(property "Value" "100nF 10V"
+			(at 95.25 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 33.02 0)
+			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 33.02 0)
+			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4336,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 33.02 0)
+			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 10V"
 			(at 81.28 34.2962 0)
 			(effects
 				(font
@@ -4838,7 +4838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1uF 10V"
 			(at 31.75 29.2162 0)
 			(effects
 				(font
@@ -5257,7 +5257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1uF 10V"
 			(at 68.58 34.2962 0)
 			(effects
 				(font
@@ -5327,7 +5327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 10V"
 			(at 121.92 39.3762 0)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 10V"
 			(at 208.28 29.2162 0)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 10V"
 			(at 226.06 29.2162 0)
 			(effects
 				(font
@@ -5612,7 +5612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 10V"
 			(at 107.95 39.3762 0)
 			(effects
 				(font
@@ -5682,7 +5682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 6.3V"
+		(property "Value" "10uF 10V"
 			(at 55.88 34.2962 0)
 			(effects
 				(font

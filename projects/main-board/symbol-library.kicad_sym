@@ -27,8 +27,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 6.858 29.21 0)
+		(property "Footprint" "footprint-library:XTAL_ABM10W-40.0000MHZ-8-B1U-T3"
+			(at 17.018 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,16 +250,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "AP5725WG-7"
+			(at 5.588 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:AP5725WG-7"
+			(at 11.938 -34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,16 +422,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "APS256XXN-OBR-BG"
+			(at 8.89 -69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:APS256XXN-OBR-BG"
+			(at 15.24 -71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,16 +918,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "DM3AT-SF-PEJM5"
+			(at 7.366 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:DM3AT-SF-PEJM5"
+			(at 13.716 -37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,16 +1144,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "ESP32-C6FH4"
+			(at 5.842 -92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:ESP32-C6FH4"
+			(at 12.192 -94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,16 +1813,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "LSM6DSO32TR"
+			(at 6.35 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:LSM6DSO32TR"
+			(at 12.7 -38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,16 +2112,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MAX77972EWX+T"
+			(at 7.366 -97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:MAX77972EWX+T"
+			(at 13.716 -99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,16 +2824,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MPM3805GQB-18-Z"
+			(at 8.128 -27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:MPM3805GQB-18-Z"
+			(at 14.478 -29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,16 +3104,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MX25UM25645GXDI00"
+			(at 9.144 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:MX25UM25645GXDI00"
+			(at 15.494 -61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,16 +3600,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "NAU8325YG"
+			(at 5.08 -66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:NAU8325YG"
+			(at 11.43 -67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,16 +4042,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "NHD-4.3-480272EF-ASXP (Molex 54104-4031)"
+			(at 19.05 -106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:Molex 54104-4031"
+			(at 13.97 -109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 18.796 -106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,16 +4826,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TLV74330PDBVR"
+			(at 6.858 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:TLV74330PDBVR"
+			(at 13.208 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,16 +4980,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TPS22992RXPR"
+			(at 6.35 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:TPS22992RXPR"
+			(at 12.954 -41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,16 +5188,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TPS92380PWPR"
+			(at 6.858 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:TPS92380PWPR"
+			(at 13.208 -57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,16 +5612,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TPSM863253RDXR"
+			(at 7.874 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:TPSM863253RDXR"
+			(at 14.224 -25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,16 +5802,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TS3USB221ARSER"
+			(at 7.874 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:TS3USB221ARSER"
+			(at 14.224 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,16 +6046,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "USB4105-GF-A"
+			(at 6.35 -53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "footprint-library:USB4105-GF-A"
+			(at 12.7 -55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)

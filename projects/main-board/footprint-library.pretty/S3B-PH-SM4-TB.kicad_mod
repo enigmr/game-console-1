@@ -266,13 +266,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f557196f-bfb0-4a32-a27b-8935da2421e6")
 	)
-	(pad "4" smd rect
+	(pad "MP" smd rect
 		(at -4.350001 -2.805301 90)
 		(size 3.5052 1.6002)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ccddaca6-3580-472c-8714-41bf6594db47")
 	)
-	(pad "5" smd rect
+	(pad "MP" smd rect
 		(at 4.350001 -2.805301 90)
 		(size 3.5052 1.6002)
 		(layers "F.Cu" "F.Mask" "F.Paste")

@@ -1671,7 +1671,7 @@
 		)
 		(uuid "62847570-c9c8-4ebe-9b13-e02bc0e9ec4e")
 	)
-	(label "LEFT_MOTOR_P"
+	(label "MOTOR_P"
 		(at 168.91 86.36 0)
 		(effects
 			(font
@@ -1681,7 +1681,7 @@
 		)
 		(uuid "a42f4c3b-47ef-49fa-bc86-8fac5bb802d1")
 	)
-	(label "RIGHT_MOTOR_P"
+	(label "MOTOR_P"
 		(at 217.17 86.36 0)
 		(effects
 			(font

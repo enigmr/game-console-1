@@ -717,286 +717,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MPM3805GQB-18-Z_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.016 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MPM3805GQB-18-Z"
-				(at 8.128 -27.686 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint-library:MPM3805GQB-18-Z"
-				(at 14.478 -29.464 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MPM3805GQB-18-Z_1_0_1"
-				(rectangle
-					(start 0 0)
-					(end 16.51 -26.67)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MPM3805GQB-18-Z_1_1_1"
-				(pin power_in line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 19.05 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 19.05 -5.08 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "OUT_S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -13.97 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -16.51 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 19.05 -20.32 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 19.05 -22.86 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 19.05 -25.4 180)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPS22992RXPR_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1188,196 +908,6 @@
 					(at 24.13 -36.83 180)
 					(length 2.54)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPSM863253RDXR_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0.762 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPSM863253RDXR"
-				(at 7.874 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint-library:TPSM863253RDXR"
-				(at 14.224 -25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPSM863253RDXR_1_0_1"
-				(rectangle
-					(start 0 0)
-					(end 17.78 -22.86)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPSM863253RDXR_1_1_1"
-				(pin power_in line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -19.05 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -2.54 -21.59 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 20.32 -2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "VOS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -12.7 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 20.32 -21.59 180)
-					(length 2.54)
-					(name "PGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3036,15 +2566,11 @@
 			(embedded_fonts no)
 		)
 		(symbol "symbol-library:450404015514"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 5.08 0)
+				(at 1.524 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3052,7 +2578,7 @@
 				)
 			)
 			(property "Value" "450404015514"
-				(at 0 -5.08 0)
+				(at 5.842 0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3060,6 +2586,15 @@
 				)
 			)
 			(property "Footprint" "footprint-library:450404015514"
+				(at 5.588 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3068,25 +2603,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3097,7 +2614,7 @@
 			)
 			(symbol "450404015514_0_1"
 				(circle
-					(center -2.032 0)
+					(center 0.508 -5.08)
 					(radius 0.4572)
 					(stroke
 						(width 0)
@@ -3109,7 +2626,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy 1.0133 -5.1412) (xy 6.6874 -1.4182)
 					)
 					(stroke
 						(width 0)
@@ -3120,7 +2637,7 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
+					(center 7.112 -1.27)
 					(radius 0.4572)
 					(stroke
 						(width 0)
@@ -3131,7 +2648,7 @@
 					)
 				)
 				(circle
-					(center 2.032 -2.54)
+					(center 7.112 -8.89)
 					(radius 0.4572)
 					(stroke
 						(width 0)
@@ -3144,8 +2661,8 @@
 			)
 			(symbol "450404015514_1_1"
 				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
+					(start 0 0)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -3155,9 +2672,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -2.54 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3173,9 +2690,27 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 3.81 -12.7 90)
 					(length 2.54)
-					(name "A"
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3191,9 +2726,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 10.16 -8.89 180)
 					(length 2.54)
-					(name "C"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3201,6 +2736,286 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbol-library:MPM3805GQB-18-Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.016 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MPM3805GQB-18-Z"
+				(at 8.128 -27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint-library:MPM3805GQB-18-Z"
+				(at 14.478 -29.464 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MPM3805GQB-18-Z_0_1"
+				(rectangle
+					(start 0 0)
+					(end 16.51 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MPM3805GQB-18-Z_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -22.86 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -25.4 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 -2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 -5.08 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 19.05 -7.62 180)
+					(length 2.54)
+					(name "OUT_S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -11.43 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -13.97 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -16.51 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 19.05 -20.32 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 19.05 -22.86 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 19.05 -25.4 180)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3237,7 +3052,7 @@
 				)
 			)
 			(property "Footprint" "footprint-library:S3B-PH-SM4-TB"
-				(at 0 0 0)
+				(at 1.524 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3255,7 +3070,7 @@
 				)
 			)
 			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+				(at 1.27 -12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3421,6 +3236,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbol-library:TPSM863253RDXR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.762 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPSM863253RDXR"
+				(at 7.874 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint-library:TPSM863253RDXR"
+				(at 14.224 -25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPSM863253RDXR_0_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPSM863253RDXR_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -21.59 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "VOS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 -21.59 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 66.04 158.75)
@@ -3439,6 +3444,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "097c344d-8f8c-4c05-bbab-3db6a52a53ad")
+	)
+	(junction
+		(at 36.83 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e587204-e45a-4c44-bbe0-5af6e88c4a5e")
 	)
 	(junction
 		(at 219.71 67.31)
@@ -3549,7 +3560,7 @@
 		(uuid "690724b0-7675-4fd1-83fa-041fd4bca536")
 	)
 	(junction
-		(at 24.13 101.6)
+		(at 21.59 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cddba16-8466-49cd-a1a6-5a0382a855af")
@@ -3651,7 +3662,7 @@
 		(uuid "bf3a72d2-06b7-4117-9581-42b1930a90ea")
 	)
 	(junction
-		(at 24.13 99.06)
+		(at 21.59 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9704747-18ac-4a2a-9e68-cb02b826007f")
@@ -3962,16 +3973,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 129.54) (xy 36.83 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b365b1-479d-42c2-bd43-41f5f870a895")
-	)
-	(wire
-		(pts
 			(xy 24.13 162.56) (xy 24.13 163.83)
 		)
 		(stroke
@@ -4252,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 137.16) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f8cfe3-10ae-4370-b7bc-96057349f64e")
+	)
+	(wire
+		(pts
 			(xy 67.31 124.46) (xy 67.31 125.73)
 		)
 		(stroke
@@ -4432,16 +4443,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 127) (xy 24.13 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f42a629-ce17-4ad5-8456-b67812354b6e")
-	)
-	(wire
-		(pts
 			(xy 227.33 59.69) (xy 233.68 59.69)
 		)
 		(stroke
@@ -4552,7 +4553,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 97.79) (xy 24.13 99.06)
+			(xy 21.59 97.79) (xy 21.59 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4662,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 99.06) (xy 24.13 101.6)
+			(xy 21.59 99.06) (xy 21.59 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4709,6 +4710,16 @@
 			(type default)
 		)
 		(uuid "80883d40-9acf-4aa5-a201-f146f2105eda")
+	)
+	(wire
+		(pts
+			(xy 35.56 132.08) (xy 36.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e1443e-76ae-4213-8e47-8ba9193835dc")
 	)
 	(wire
 		(pts
@@ -4802,7 +4813,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 99.06) (xy 38.1 99.06)
+			(xy 21.59 99.06) (xy 38.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4899,6 +4910,16 @@
 			(type default)
 		)
 		(uuid "944548e7-dba5-49a8-9905-7a3f3c70f652")
+	)
+	(wire
+		(pts
+			(xy 36.83 137.16) (xy 36.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dcd1ce-fde4-4c13-a655-80edecb92ee5")
 	)
 	(wire
 		(pts
@@ -5000,6 +5021,16 @@
 		)
 		(uuid "a63139bf-8714-4267-be6d-49447e1005b1")
 	)
+	(wire
+		(pts
+			(xy 21.59 128.27) (xy 22.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83fa710-af3e-4fea-b4a4-39db882aa3fd")
+	)
 	(bus
 		(pts
 			(xy 144.78 92.71) (xy 144.78 95.25)
@@ -5052,16 +5083,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 127) (xy 24.13 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02f0ce0-5284-4839-adbc-edb02927b6ef")
-	)
-	(wire
-		(pts
 			(xy 162.56 41.91) (xy 163.83 41.91)
 		)
 		(stroke
@@ -5082,6 +5103,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 101.6) (xy 21.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46858a8-a697-4950-ac7d-e4d94622299d")
+	)
+	(wire
+		(pts
 			(xy 143.51 176.53) (xy 166.37 176.53)
 		)
 		(stroke
@@ -5089,16 +5120,6 @@
 			(type default)
 		)
 		(uuid "b67ecaba-71e7-4b8d-9ba3-a46553bcad8d")
-	)
-	(wire
-		(pts
-			(xy 36.83 129.54) (xy 36.83 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8a3f8f-27c5-48ef-a456-02a1359da65a")
 	)
 	(wire
 		(pts
@@ -5262,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 135.89) (xy 29.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24a400d-d85d-4866-a2f6-a737ac59617c")
+	)
+	(wire
+		(pts
 			(xy 273.05 74.93) (xy 273.05 72.39)
 		)
 		(stroke
@@ -5399,6 +5430,16 @@
 			(type default)
 		)
 		(uuid "ef48f9e0-3c14-4d4c-bc56-0f8c6a8b7ea0")
+	)
+	(wire
+		(pts
+			(xy 36.83 132.08) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efae1f57-87a9-4bcb-a76f-23cb5de08de6")
 	)
 	(wire
 		(pts
@@ -5562,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 101.6) (xy 38.1 101.6)
+			(xy 21.59 101.6) (xy 38.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5781,16 +5822,15 @@
 	)
 	(symbol
 		(lib_id "symbol-library:450404015514")
-		(at 30.48 127 0)
+		(at 25.4 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02ced5b5-a1fd-4d01-b1d8-cd81838ee09a")
 		(property "Reference" "SW1"
-			(at 30.48 118.11 0)
+			(at 27.178 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5838,7 @@
 			)
 		)
 		(property "Value" "450404015514"
-			(at 30.48 120.65 0)
+			(at 30.988 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5846,7 @@
 			)
 		)
 		(property "Footprint" "footprint-library:450404015514"
-			(at 30.48 127 0)
+			(at 25.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 134.62 0)
+			(at 25.4 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5864,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 30.48 127 0)
+			(at 25.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,8 +5881,11 @@
 		(pin "1"
 			(uuid "b929d4ca-810c-4b5b-97d1-9f9145ec26dc")
 		)
+		(pin "4"
+			(uuid "acaa5958-a39d-4d3e-91b0-d0ebc557b508")
+		)
 		(instances
-			(project ""
+			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8c4d5296-af08-4575-a315-f8c9eefb13c6"
 					(reference "SW1")
 					(unit 1)
@@ -8214,7 +8257,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 24.13 97.79 0)
+		(at 21.59 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8223,7 +8266,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9ad5388-a300-4515-b9ce-0a05ca954939")
 		(property "Reference" "#PWR088"
-			(at 24.13 101.6 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8275,7 @@
 			)
 		)
 		(property "Value" "VSYS_IN"
-			(at 24.13 92.71 0)
+			(at 21.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 97.79 0)
+			(at 21.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +8292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 97.79 0)
+			(at 21.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 24.13 97.79 0)
+			(at 21.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 130.81 0)
+		(at 36.83 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8562,7 +8605,7 @@
 		(fields_autoplaced yes)
 		(uuid "c89ef6c1-777e-466b-84ac-a1136f06af21")
 		(property "Reference" "#PWR091"
-			(at 36.83 137.16 0)
+			(at 36.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 135.89 0)
+			(at 36.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 130.81 0)
+			(at 36.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 130.81 0)
+			(at 36.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +8640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 130.81 0)
+			(at 36.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8684,7 +8727,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPSM863253RDXR_1")
 		(lib_id "symbol-library:TPSM863253RDXR")
 		(at 123.19 154.94 0)
 		(unit 1)
@@ -9042,7 +9084,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MPM3805GQB-18-Z_1")
 		(lib_id "symbol-library:MPM3805GQB-18-Z")
 		(at 45.72 153.67 0)
 		(unit 1)

@@ -5,133 +5,6 @@
 	(uuid "5a530ca7-9296-48ea-8b9d-464c694f57fe")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Speaker"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at 1.27 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Speaker"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Speaker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "speaker sound"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Speaker_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Speaker_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NAU8325YG_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1251,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00728989-b159-4147-a0db-f4923d239d50")
+	)
+	(wire
+		(pts
 			(xy 105.41 93.98) (xy 105.41 95.25)
 		)
 		(stroke
@@ -1368,6 +1251,16 @@
 			(type default)
 		)
 		(uuid "345c4b07-70bb-4ad5-bf58-f3719972d1b2")
+	)
+	(wire
+		(pts
+			(xy 196.85 86.36) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3465a6af-6ceb-44d9-89b7-244e26f31b8a")
 	)
 	(wire
 		(pts
@@ -1501,6 +1394,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 68.58) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606ae6ad-3fce-4eef-9016-14adeaafac8a")
+	)
+	(wire
+		(pts
 			(xy 105.41 66.04) (xy 105.41 67.31)
 		)
 		(stroke
@@ -1598,16 +1501,6 @@
 			(type default)
 		)
 		(uuid "83e4fde4-ecb7-4bf6-b7ab-6c7ec7e524eb")
-	)
-	(wire
-		(pts
-			(xy 210.82 88.9) (xy 196.85 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "856d8fb7-645c-4f3b-b31b-ab7bf9263991")
 	)
 	(wire
 		(pts
@@ -1761,26 +1654,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 196.85 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6eaadf-5e6d-4447-95fa-8e31253d4f28")
-	)
-	(wire
-		(pts
-			(xy 210.82 68.58) (xy 196.85 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc7e15f0-29e2-4ce6-b821-355abdfad48a")
-	)
-	(wire
-		(pts
 			(xy 119.38 66.04) (xy 133.35 66.04)
 		)
 		(stroke
@@ -1851,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 196.85 66.04)
+			(xy 196.85 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1949,6 +1822,16 @@
 		)
 		(uuid "494443c2-7a5d-4b3a-b7db-c8672de839c9")
 	)
+	(label "LEFT_SPEAKER_N"
+		(at 200.66 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d88b743-3a0e-4d86-8bd8-3e9ba9c43d68")
+	)
 	(label "I2C{SCL SDA}"
 		(at 105.41 111.76 0)
 		(effects
@@ -1979,6 +1862,16 @@
 		)
 		(uuid "7a7cf1e4-758e-4180-92c4-ed2da3955c5b")
 	)
+	(label "RIGHT_SPEAKER_P"
+		(at 200.66 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4a88ef6-3b58-428e-a9b3-cd3221cbaa59")
+	)
 	(label "I2S.BCK"
 		(at 135.89 119.38 0)
 		(effects
@@ -1988,6 +1881,16 @@
 			(justify left bottom)
 		)
 		(uuid "bec82202-14f6-4925-ba68-8e8888440b7f")
+	)
+	(label "LEFT_SPEAKER_P"
+		(at 200.66 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfbc9e9f-b8e1-4578-8501-95a18ae9803b")
 	)
 	(label "I2C.SDA"
 		(at 135.89 109.22 0)
@@ -2008,6 +1911,16 @@
 			(justify left bottom)
 		)
 		(uuid "c678592b-703d-4dea-bf83-91a968be0e25")
+	)
+	(label "RIGHT_SPEAKER_N"
+		(at 200.66 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9ae64d5-60ef-4be7-94b7-c1404cc45ecd")
 	)
 	(hierarchical_label "I2C"
 		(shape input)
@@ -2181,7 +2094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17362db3-4d58-438b-9752-01fd790c4dbe")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0138"
 			(at 86.36 96.52 0)
 			(effects
 				(font
@@ -2231,7 +2144,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0137")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -2387,7 +2300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "442fe34e-501c-4c88-806f-abd37af6a60d")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0135"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -2437,7 +2350,7 @@
 		(instances
 			(project ""
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a71ee5-098d-4e85-81f4-c645340187d5")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0142"
 			(at 198.12 134.62 0)
 			(effects
 				(font
@@ -2503,7 +2416,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0141")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -2650,76 +2563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Speaker")
-		(at 215.9 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eeaa681-0bc2-43b1-a4ab-123da3e864e2")
-		(property "Reference" "LS1"
-			(at 220.98 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker"
-			(at 220.98 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.646 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 215.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a89524cb-a436-468f-b359-7dc8612f71b6")
-		)
-		(pin "2"
-			(uuid "a1df7f7a-7c24-4191-a108-f39ab32de982")
-		)
-		(instances
-			(project ""
-				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "NAU8325YG_1")
 		(lib_id "symbol-library:NAU8325YG")
 		(at 152.4 63.5 0)
@@ -2854,7 +2697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e83b6fe-502b-4e48-95e4-c3ff8ec819d1")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0139"
 			(at 105.41 96.52 0)
 			(effects
 				(font
@@ -2904,7 +2747,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "845f934c-7be2-4a51-bb73-6a5eb73e1dcd")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 105.41 107.95 0)
 			(effects
 				(font
@@ -2970,7 +2813,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -3126,7 +2969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9181cd7c-1795-4709-baf4-b6598f4ae227")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0141"
 			(at 142.24 140.97 0)
 			(effects
 				(font
@@ -3176,7 +3019,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0140")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -3262,7 +3105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8d28b6-d7ab-4a56-8b67-4fddb2f04b21")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0136"
 			(at 67.31 81.28 0)
 			(effects
 				(font
@@ -3312,7 +3155,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0135")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ccf3ea-7d27-4a55-b6b6-ee2e8d5ff13e")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0137"
 			(at 86.36 85.09 0)
 			(effects
 				(font
@@ -3378,77 +3221,7 @@
 		(instances
 			(project "main-board"
 				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 215.9 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecd488bb-639b-4fbd-95ab-0fe4b3c6d36e")
-		(property "Reference" "LS2"
-			(at 220.98 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker"
-			(at 220.98 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.646 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "228278d6-79b7-4183-adf5-5f9841f4833c")
-		)
-		(pin "2"
-			(uuid "5488f25c-a309-42f6-9a4e-7b2e5fe7cc85")
-		)
-		(instances
-			(project "main-board"
-				(path "/c621b5fd-2ef7-4a67-960d-0ffc72b1245a/8dfb54cf-5d20-4131-8758-426624cc9a00"
-					(reference "LS2")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)

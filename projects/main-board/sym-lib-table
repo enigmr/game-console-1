@@ -3,4 +3,7 @@
   (lib (name "symbol-library")(type "KiCad")(uri "${KIPRJMOD}/symbol-library.kicad_sym")(options "")(descr ""))
   (lib (name "symbol-library-capacitors")(type "KiCad")(uri "${KIPRJMOD}/symbol-library-capacitors.kicad_sym")(options "")(descr ""))
   (lib (name "symbol-library-resistors")(type "KiCad")(uri "${KIPRJMOD}/symbol-library-resistors.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-inductors")(type "KiCad")(uri "${KIPRJMOD}/symbol-library-inductors.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-diodes")(type "KiCad")(uri "${KIPRJMOD}/symbol-library-diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-transistors")(type "KiCad")(uri "${KIPRJMOD}/symbol-library-transistors.kicad_sym")(options "")(descr ""))
 )

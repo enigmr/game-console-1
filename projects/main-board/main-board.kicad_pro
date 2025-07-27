@@ -452,7 +452,10 @@
     "pinned_symbol_libs": [
       "symbol-library",
       "symbol-library-capacitors",
-      "symbol-library-resistors"
+      "symbol-library-resistors",
+      "symbol-library-inductors",
+      "symbol-library-diodes",
+      "symbol-library-transistors"
     ]
   },
   "meta": {

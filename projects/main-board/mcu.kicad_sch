@@ -12202,16 +12202,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 85.09) (xy 457.2 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e05d5eb-dd75-4083-a1fd-4cead1c8a72f")
-	)
-	(wire
-		(pts
 			(xy 97.79 266.7) (xy 97.79 267.97)
 		)
 		(stroke
@@ -12359,16 +12349,6 @@
 			(type default)
 		)
 		(uuid "54d15e0e-9c51-4e9e-bd71-782dc3c44144")
-	)
-	(wire
-		(pts
-			(xy 435.61 77.47) (xy 457.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5529bf48-701a-4666-9dbc-365281d974e1")
 	)
 	(bus
 		(pts
@@ -12949,16 +12929,6 @@
 			(type default)
 		)
 		(uuid "7103cbf3-9564-416b-9a67-0a1db1bf52cc")
-	)
-	(wire
-		(pts
-			(xy 435.61 80.01) (xy 457.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "712dccc3-8c06-45d0-8357-fe9fbd0e1486")
 	)
 	(wire
 		(pts
@@ -15482,16 +15452,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 82.55) (xy 457.2 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24e0504-73a2-4be9-95a8-cb2ce81c3376")
-	)
-	(wire
-		(pts
 			(xy 135.89 354.33) (xy 135.89 355.6)
 		)
 		(stroke
@@ -16230,16 +16190,6 @@
 		)
 		(uuid "0b6f8a8b-3bfb-4fed-a33a-84fad6284f0f")
 	)
-	(label "BUTTONS.B14"
-		(at 444.5 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c3ff230-9b8e-4962-aec4-ccd99969d11b")
-	)
 	(label "I2C4.SDA"
 		(at 265.43 300.99 0)
 		(effects
@@ -16420,7 +16370,7 @@
 		)
 		(uuid "29f3e483-3b0a-46bb-bbd2-da166756f022")
 	)
-	(label "BUTTONS{B[0..15]}"
+	(label "BUTTONS{B[0..11]}"
 		(at 205.74 100.33 0)
 		(effects
 			(font
@@ -16499,16 +16449,6 @@
 			(justify left bottom)
 		)
 		(uuid "30e5f53f-bd9d-4164-baf7-8bfe966bec38")
-	)
-	(label "BUTTONS.B15"
-		(at 444.5 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31689ebf-4ebd-4734-9fc0-674267c456ed")
 	)
 	(label "RAM_HEXASPI.DQS1"
 		(at 454.66 250.19 0)
@@ -16669,16 +16609,6 @@
 			(justify left bottom)
 		)
 		(uuid "5066192b-b4fe-47be-b7a2-0cdb9d6eb4ec")
-	)
-	(label "BUTTONS.B13"
-		(at 444.5 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51d04f99-0e42-4a21-b154-f1cb7e58c290")
 	)
 	(label "PMIC_INPUT_VALID"
 		(at 308.61 215.9 0)
@@ -17089,16 +17019,6 @@
 			(justify left bottom)
 		)
 		(uuid "94493f70-ab18-465a-ab94-2a8ae6f24758")
-	)
-	(label "BUTTONS.B12"
-		(at 444.5 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95a4d857-9e9c-45bc-b593-c38157e06abd")
 	)
 	(label "SD.D2"
 		(at 308.61 156.21 0)

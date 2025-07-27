@@ -48,51 +48,56 @@ Hobby handheld game console from scratch.
 
 TODO
 
+## Mechanicals
+
+### Top View
+<img src="./projects/main-board/images/mechanicals/render-1.png">
+
 ## PCB
 
 ### Top View
-<img src="./projects/main-board/images/main-board.png">
+<img src="./projects/main-board/images/pcb/main-board.png">
 
 ## Schematics 
 
 ### Top Sheet
-<img src="./projects/main-board/svgs/main-board.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board.svg">
 
 ### Audio
-<img src="./projects/main-board/svgs/main-board-Audio.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-Audio.svg">
 
 ### Buttons
-<img src="./projects/main-board/svgs/main-board-Buttons.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-Buttons.svg">
 
 ### ESP32
-<img src="./projects/main-board/svgs/main-board-ESP32.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-ESP32.svg">
 
 ### Flash
-<img src="./projects/main-board/svgs/main-board-Flash.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-Flash.svg">
 
 ### Haptics
-<img src="./projects/main-board/svgs/main-board-Haptics.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-Haptics.svg">
 
 ### IMU
-<img src="./projects/main-board/svgs/main-board-IMU.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-IMU.svg">
 
 ### LCD
-<img src="./projects/main-board/svgs/main-board-LCD.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-LCD.svg">
 
 ### MCU
-<img src="./projects/main-board/svgs/main-board-MCU.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-MCU.svg">
 
 ### Micro SD
-<img src="./projects/main-board/svgs/main-board-Micro SD.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-Micro SD.svg">
 
 ### Power
-<img src="./projects/main-board/svgs/main-board-Power.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-Power.svg">
 
 ### RAM
-<img src="./projects/main-board/svgs/main-board-RAM.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-RAM.svg">
 
 ### USB Switch
-<img src="./projects/main-board/svgs/main-board-USB Switch.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-USB Switch.svg">
 
 ### USB
-<img src="./projects/main-board/svgs/main-board-USB.svg">
+<img src="./projects/main-board/images/schematics/svgs/main-board-USB.svg">

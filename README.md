@@ -48,6 +48,11 @@ Hobby handheld game console from scratch.
 
 TODO
 
+## PCB
+
+### Top View
+<img src="./projects/main-board/images/main-board.png">
+
 ## Schematics 
 
 ### Top Sheet

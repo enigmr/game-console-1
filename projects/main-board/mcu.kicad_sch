@@ -12442,16 +12442,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 72.39) (xy 457.2 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "593331f5-46b8-4aac-88d3-8def37e70167")
-	)
-	(wire
-		(pts
 			(xy 63.5 344.17) (xy 63.5 346.71)
 		)
 		(stroke
@@ -12899,16 +12889,6 @@
 			(type default)
 		)
 		(uuid "6f6dc521-de3c-45a4-a0e7-c71fd85792e5")
-	)
-	(wire
-		(pts
-			(xy 435.61 74.93) (xy 457.2 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70188f35-213b-40bd-aecd-3033d37dc86c")
 	)
 	(wire
 		(pts
@@ -16370,7 +16350,7 @@
 		)
 		(uuid "29f3e483-3b0a-46bb-bbd2-da166756f022")
 	)
-	(label "BUTTONS{B[0..11]}"
+	(label "BUTTONS{B[0..9]}"
 		(at 205.74 100.33 0)
 		(effects
 			(font
@@ -16729,16 +16709,6 @@
 			(justify left bottom)
 		)
 		(uuid "67d4f0a0-0d91-4121-875f-095fffbdc2ce")
-	)
-	(label "BUTTONS.B10"
-		(at 444.5 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67e9f247-5a64-43a3-882c-b484a9a3f009")
 	)
 	(label "MOTOR_PWR_EN"
 		(at 205.74 80.01 0)
@@ -17439,16 +17409,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd6c630a-d1e8-4710-9fbc-40f4459d0c03")
-	)
-	(label "BUTTONS.B11"
-		(at 444.5 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdc2e576-6be1-44cd-b127-96ffe9ad70bb")
 	)
 	(label "FLASH_OCTOSPI.SIO1"
 		(at 454.66 203.2 0)

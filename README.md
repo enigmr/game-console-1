@@ -55,8 +55,12 @@ TODO
 
 ## PCB
 
-### Top View
-<img src="./projects/main-board/images/pcb/main-board.png">
+### Top
+<img src="./projects/main-board/images/pcb/main-board-top.png">
+
+### Top Bottom
+<img src="./projects/main-board/images/pcb/main-board-bottom.png">
+
 
 ## Schematics 
 

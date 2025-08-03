@@ -881,7 +881,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_UP" bidirectional
+		(pin "USB" bidirectional
 			(at 146.05 73.66 180)
 			(uuid "909dfbf3-e78e-44c2-b625-34ebdf2c05fc")
 			(effects

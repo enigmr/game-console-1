@@ -101,45 +101,16 @@
 		(layer "F.SilkS")
 		(uuid "149ea58d-1a9c-4550-9b8e-c072b2f207f7")
 	)
-	(fp_line
-		(start -4 -5)
-		(end 4 -5)
+	(fp_rect
+		(start -3.25 -4.25)
+		(end 3.25 4.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3a8dbc13-1e72-4ab2-bf97-d98f3cacd7d3")
-	)
-	(fp_line
-		(start -4 5)
-		(end -4 -5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "40c859a1-2f2d-4b89-8077-2cd830ef449a")
-	)
-	(fp_line
-		(start -4 5)
-		(end 4 5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7777e5ec-b515-4718-ac04-0cf30855f558")
-	)
-	(fp_line
-		(start 4 5)
-		(end 4 -5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "23d80d32-f567-4025-9990-b1c1e976f571")
+		(uuid "5df13400-e987-42a5-8f9f-42415948610f")
 	)
 	(fp_line
 		(start -3 4)

@@ -1804,7 +1804,7 @@
 		)
 		(uuid "fdb698db-d583-4f8a-8122-9a27b40dff8e")
 	)
-	(label "LEFT_MOTOR.P"
+	(label "LEFT_MOTOR_P"
 		(at 105.41 64.77 0)
 		(effects
 			(font
@@ -1824,7 +1824,7 @@
 		)
 		(uuid "1afbb73f-8602-46a1-94ee-a37aadf0af97")
 	)
-	(label "BUTTONS.B1"
+	(label "BUTTONS_B1"
 		(at 105.41 44.45 0)
 		(effects
 			(font
@@ -1834,7 +1834,7 @@
 		)
 		(uuid "370f350e-949b-41f3-8afe-45ef25b9d8ce")
 	)
-	(label "LEFT_MOTOR.N"
+	(label "LEFT_MOTOR_N"
 		(at 105.41 67.31 0)
 		(effects
 			(font
@@ -1854,7 +1854,7 @@
 		)
 		(uuid "5a75599f-f906-4839-a0b6-79f09d73b602")
 	)
-	(label "BUTTONS.B0"
+	(label "BUTTONS_B0"
 		(at 105.41 41.91 0)
 		(effects
 			(font
@@ -1874,7 +1874,7 @@
 		)
 		(uuid "7ff80bec-d4bc-401d-813b-3b6625ae835f")
 	)
-	(label "BUTTONS.B3"
+	(label "BUTTONS_B3"
 		(at 105.41 49.53 0)
 		(effects
 			(font
@@ -1894,7 +1894,7 @@
 		)
 		(uuid "c1f79de4-3e39-4782-9018-dd6c6d4979c8")
 	)
-	(label "BUTTONS.B4"
+	(label "BUTTONS_B4"
 		(at 105.41 52.07 0)
 		(effects
 			(font
@@ -1904,7 +1904,7 @@
 		)
 		(uuid "cadbd5a1-dc85-4888-ba8b-cb794e30597c")
 	)
-	(label "LEFT_SPEAKER.P"
+	(label "LEFT_SPEAKER_P"
 		(at 105.41 57.15 0)
 		(effects
 			(font
@@ -1914,7 +1914,7 @@
 		)
 		(uuid "d1d7b98f-7e3d-4117-bd6b-5e8fb5afc9fc")
 	)
-	(label "BUTTONS.B2"
+	(label "BUTTONS_B2"
 		(at 105.41 46.99 0)
 		(effects
 			(font
@@ -1934,7 +1934,7 @@
 		)
 		(uuid "ec489f7c-f61a-4017-818f-5d546a2bc4e6")
 	)
-	(label "LEFT_SPEAKER.N"
+	(label "LEFT_SPEAKER_N"
 		(at 105.41 59.69 0)
 		(effects
 			(font

@@ -1208,7 +1208,7 @@
 		)
 		(uuid "aa0abf1e-1624-4405-8dff-586d2ceb0f6c")
 	)
-	(label "LEFT_MOTOR_N"
+	(label "LEFT_MOTOR.N"
 		(at 106.68 109.22 0)
 		(effects
 			(font

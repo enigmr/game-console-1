@@ -1,0 +1,6 @@
+left-board-backups
+*.lck
+\#auto_saved_files\#
+*.bak
+fp-info-cache
+_autosave*

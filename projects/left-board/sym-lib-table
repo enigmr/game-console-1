@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "symbol-library-capacitors")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/symbol-library-capacitors.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-diodes")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/symbol-library-diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-inductors")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/symbol-library-inductors.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-resistors")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/symbol-library-resistors.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library-transistors")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/symbol-library-transistors.kicad_sym")(options "")(descr ""))
+  (lib (name "symbol-library")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/symbol-library.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32n_u")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libraries/stm32n_u.kicad_sym")(options "")(descr ""))
+)

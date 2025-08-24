@@ -51,7 +51,10 @@ TODO
 ## Mechanicals
 
 ### Top View
-<img src="./projects/main-board/images/mechanicals/render-1.png">
+<img src="./doc/images/mechanicals/render-1.png">
+
+### Insides
+<img src="./doc/images/mechanicals/insides.png">
 
 ## PCBs
 

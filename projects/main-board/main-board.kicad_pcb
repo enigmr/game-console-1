@@ -48,7 +48,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "White")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -112,7 +112,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "White")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"

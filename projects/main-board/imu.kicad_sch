@@ -747,24 +747,6 @@
 		(at 172.72 113.03)
 		(uuid "f2edb843-aad9-40b6-9001-d95491a3c55d")
 	)
-	(bus_entry
-		(at 135.89 105.41)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5785c7ea-2969-41b6-9e53-53b03e3708d6")
-	)
-	(bus_entry
-		(at 135.89 107.95)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c67733-da55-41dc-9c09-7d139903a32e")
-	)
 	(wire
 		(pts
 			(xy 173.99 118.11) (xy 173.99 119.38)
@@ -847,7 +829,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 110.49) (xy 133.35 110.49)
+			(xy 115.57 66.04) (xy 133.35 66.04)
 		)
 		(stroke
 			(width 0)
@@ -874,16 +856,6 @@
 			(type default)
 		)
 		(uuid "792a4f71-dbdf-46e1-bdbb-7124734cb47f")
-	)
-	(bus
-		(pts
-			(xy 133.35 107.95) (xy 133.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84a24c43-b90b-42b2-89b0-2ec48115466f")
 	)
 	(wire
 		(pts
@@ -1056,7 +1028,7 @@
 		(uuid "1da03f38-555a-4a67-acf9-69fbdf3f10f5")
 	)
 	(label "I2C{SCL SDA}"
-		(at 119.38 110.49 0)
+		(at 119.38 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,7 +1049,7 @@
 	)
 	(hierarchical_label "I2C"
 		(shape bidirectional)
-		(at 115.57 110.49 180)
+		(at 115.57 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)

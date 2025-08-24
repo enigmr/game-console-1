@@ -640,24 +640,6 @@
 		(at 148.59 116.84)
 		(uuid "76c5389c-4af9-4d97-83f3-6c92870e11c8")
 	)
-	(bus_entry
-		(at 124.46 96.52)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd5fcda-80ed-44dd-bbfe-0e23d2983b2e")
-	)
-	(bus_entry
-		(at 124.46 106.68)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c73c11f-db83-4cb6-9ae5-39fffcd93bce")
-	)
 	(wire
 		(pts
 			(xy 147.32 73.66) (xy 147.32 71.12)
@@ -710,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 147.32 106.68)
+			(xy 132.08 106.68) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +702,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 109.22) (xy 121.92 109.22)
+			(xy 91.44 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -737,16 +719,6 @@
 			(type default)
 		)
 		(uuid "39809196-7312-4ad5-b04b-526a3f7fd91a")
-	)
-	(bus
-		(pts
-			(xy 121.92 99.06) (xy 121.92 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb942b3-555c-4dae-8e99-ad44cd75f734")
 	)
 	(wire
 		(pts
@@ -780,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 88.9) (xy 148.59 88.9)
+			(xy 132.08 88.9) (xy 148.59 88.9)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +772,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 147.32 96.52)
+			(xy 132.08 96.52) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -870,6 +842,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad7d3ba-c0c1-459b-a558-2bd5ece7f193")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6db6449-9c02-4b49-b7f9-8e7c58d5265b")
+	)
+	(wire
+		(pts
 			(xy 173.99 111.76) (xy 175.26 111.76)
 		)
 		(stroke
@@ -890,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 148.59 86.36)
+			(xy 132.08 86.36) (xy 148.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +931,7 @@
 		(uuid "fd25669d-642c-45f0-b472-78b247046b58")
 	)
 	(label "USB.DP"
-		(at 124.46 96.52 0)
+		(at 132.08 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -948,8 +940,38 @@
 		)
 		(uuid "3cfa598e-e97c-4da7-8f7e-9a157dc32f71")
 	)
+	(label "USB_CC1"
+		(at 96.52 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7498d0e9-4b4c-44f5-bb60-82934e56c6d3")
+	)
+	(label "USB_CC2"
+		(at 132.08 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750a825d-67b5-470b-8544-13f58d50cf26")
+	)
+	(label "USB_CC2"
+		(at 96.52 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "803c742b-7b34-432a-9d82-ba05edbe72c1")
+	)
 	(label "USB.DN"
-		(at 124.46 106.68 0)
+		(at 132.08 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -959,7 +981,7 @@
 		(uuid "dfd1e051-7c93-4250-b4a1-ca25d1260042")
 	)
 	(label "USB{DP DN}"
-		(at 109.22 109.22 0)
+		(at 96.52 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -968,20 +990,19 @@
 		)
 		(uuid "e851f2b5-eb64-407c-aef4-1fd7ce7d1ec3")
 	)
-	(hierarchical_label "USB_CC1"
-		(shape bidirectional)
-		(at 140.97 86.36 180)
+	(label "USB_CC1"
+		(at 132.08 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "01f22c09-3353-4de0-a597-4907379b7e8c")
+		(uuid "fad2bd28-9c29-4000-b4c4-36dc65b226ba")
 	)
 	(hierarchical_label "USB"
 		(shape bidirectional)
-		(at 104.14 109.22 180)
+		(at 91.44 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,14 +1013,25 @@
 	)
 	(hierarchical_label "USB_CC2"
 		(shape bidirectional)
-		(at 140.97 88.9 180)
+		(at 91.44 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "70f45fbe-9e2c-47b3-af51-2f830e1040be")
+		(uuid "2a5d820c-d331-4bd8-be80-f3820a9eeaab")
+	)
+	(hierarchical_label "USB_CC1"
+		(shape bidirectional)
+		(at 91.44 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "354b91c1-8566-40f6-97b0-208512666122")
 	)
 	(symbol
 		(lib_id "symbol-library:USB4105-GF-A")

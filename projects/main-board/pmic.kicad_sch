@@ -3763,42 +3763,6 @@
 		(at 64.77 170.18)
 		(uuid "e6901c07-b871-460c-a841-2d247b4149b7")
 	)
-	(bus_entry
-		(at 147.32 54.61)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6dfff4-9ad0-4cbb-af6a-11d3613beb63")
-	)
-	(bus_entry
-		(at 147.32 90.17)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431f4b7e-6b5f-4a7e-83be-fcb2838bdcf4")
-	)
-	(bus_entry
-		(at 147.32 92.71)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8249d9f8-9a22-42e5-ae8a-8cbfa3f69b6f")
-	)
-	(bus_entry
-		(at 147.32 57.15)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a07db1d-21d6-4863-a92b-8b5b89dc3d1d")
-	)
 	(wire
 		(pts
 			(xy 201.93 48.26) (xy 201.93 50.8)
@@ -4919,16 +4883,6 @@
 		)
 		(uuid "8eae94aa-1a35-4796-9dee-ce4aec9ce64a")
 	)
-	(bus
-		(pts
-			(xy 144.78 57.15) (xy 144.78 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d4d46b-4e76-49bb-9a8c-0bbf370a5516")
-	)
 	(wire
 		(pts
 			(xy 166.37 176.53) (xy 166.37 177.8)
@@ -5121,17 +5075,7 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 92.71) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a956cb48-9ce9-41f5-8b68-ea4da684ea69")
-	)
-	(bus
-		(pts
-			(xy 128.27 95.25) (xy 144.78 95.25)
+			(xy 48.26 26.67) (xy 64.77 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5311,7 +5255,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 59.69) (xy 144.78 59.69)
+			(xy 48.26 22.86) (xy 63.5 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5770,7 +5714,7 @@
 		(uuid "741969f0-7196-4268-8a73-52b6fbe91f33")
 	)
 	(label "USB{DP DN}"
-		(at 132.08 59.69 0)
+		(at 50.8 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5780,7 +5724,7 @@
 		(uuid "927216a0-30e6-4c69-954e-249bfae25ea7")
 	)
 	(label "I2C{SCL SDA}"
-		(at 130.81 95.25 0)
+		(at 50.8 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5854,7 +5798,7 @@
 	)
 	(hierarchical_label "I2C"
 		(shape bidirectional)
-		(at 128.27 95.25 180)
+		(at 48.26 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5898,7 +5842,7 @@
 	)
 	(hierarchical_label "USB"
 		(shape bidirectional)
-		(at 129.54 59.69 180)
+		(at 48.26 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)

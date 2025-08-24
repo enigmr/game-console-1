@@ -53,55 +53,65 @@ TODO
 ### Top View
 <img src="./projects/main-board/images/mechanicals/render-1.png">
 
-## PCB
+## PCBs
 
 ### Top
-<img src="./projects/main-board/images/pcb/main-board-top.png">
+<img src="./doc/images/pcb/left-board-top.png">
+<img src="./doc/images/pcb/main-board-top.png">
+<img src="./doc/images/pcb/right-board-top.png">
 
 ### Top Bottom
-<img src="./projects/main-board/images/pcb/main-board-bottom.png">
+<img src="./doc/images/pcb/left-board-bottom.png">
+<img src="./doc/images/pcb/main-board-bottom.png">
+<img src="./doc/images/pcb/right-board-bottom.png">
 
 
 ## Schematics 
 
 ### Top Sheet
-<img src="./projects/main-board/images/schematics/main-board.svg">
+<img src="./doc/images/schematics/main-board.svg">
 
 ### Audio
-<img src="./projects/main-board/images/schematics/main-board-Audio.svg">
-
-### Buttons
-<img src="./projects/main-board/images/schematics/main-board-Buttons.svg">
+<img src="./doc/images/schematics/main-board-Audio.svg">
 
 ### ESP32
-<img src="./projects/main-board/images/schematics/main-board-ESP32.svg">
+<img src="./doc/images/schematics/main-board-ESP32.svg">
 
 ### Flash
-<img src="./projects/main-board/images/schematics/main-board-Flash.svg">
+<img src="./doc/images/schematics/main-board-Flash.svg">
 
 ### Haptics
-<img src="./projects/main-board/images/schematics/main-board-Haptics.svg">
+<img src="./doc/images/schematics/main-board-Haptics.svg">
 
 ### IMU
-<img src="./projects/main-board/images/schematics/main-board-IMU.svg">
+<img src="./doc/images/schematics/main-board-IMU.svg">
 
 ### LCD
-<img src="./projects/main-board/images/schematics/main-board-LCD.svg">
+<img src="./doc/images/schematics/main-board-LCD.svg">
 
 ### MCU
-<img src="./projects/main-board/images/schematics/main-board-MCU.svg">
+<img src="./doc/images/schematics/main-board-MCU.svg">
 
 ### Micro SD
-<img src="./projects/main-board/images/schematics/main-board-Micro SD.svg">
+<img src="./doc/images/schematics/main-board-Micro SD.svg">
 
 ### Power
-<img src="./projects/main-board/images/schematics/main-board-Power.svg">
+<img src="./doc/images/schematics/main-board-Power.svg">
 
 ### RAM
-<img src="./projects/main-board/images/schematics/main-board-RAM.svg">
+<img src="./doc/images/schematics/main-board-RAM.svg">
 
 ### USB Switch
-<img src="./projects/main-board/images/schematics/main-board-USB Switch.svg">
+<img src="./doc/images/schematics/main-board-USB Switch.svg">
 
 ### USB
-<img src="./projects/main-board/images/schematics/main-board-USB.svg">
+<img src="./doc/images/schematics/main-board-USB.svg">
+
+### Controllers
+<img src="./doc/images/schematics/main-board-Buttons.svg">
+
+### Left Board
+<img src="./doc/images/schematics/left-board.svg">
+
+### Right Board
+<img src="./doc/images/schematics/right-board.svg">

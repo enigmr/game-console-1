@@ -92,7 +92,7 @@
 	(footprint "footprint-library:5051101292"
 		(layer "F.Cu")
 		(uuid "1ffae499-1372-4b9e-9c05-a7d0170d98a7")
-		(at 166.88 115.38999 90)
+		(at 151.22 119.53 90)
 		(property "Reference" "J1"
 			(at -0.1016 -6.35 90)
 			(layer "F.SilkS")
@@ -2641,6 +2641,26 @@
 		(locked yes)
 		(layer "User.1")
 		(uuid "61c9f346-d3cb-443d-89b0-e3358d666e57")
+	)
+	(gr_line
+		(start 172.720001 119.53)
+		(end 158.22 119.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "9bd8fe98-6876-4739-b94a-a5adf14c9fad")
+	)
+	(gr_line
+		(start 172.720001 96.963978)
+		(end 172.720001 119.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "e0bc9fcf-c167-4613-8695-3381e6a362f9")
 	)
 	(gr_circle
 		(center 165.62 94.905632)

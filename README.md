@@ -3,6 +3,12 @@
 Hobby handheld game console from scratch.
 
 
+## Top View
+<img src="./doc/images/mechanicals/render-1.png">
+
+## Insides
+<img src="./doc/images/mechanicals/insides.png">
+
 ## Features
 
 - Display: 4.3", 480x272, 16:9, 1200cd/m2, non-touch
@@ -25,14 +31,13 @@ Hobby handheld game console from scratch.
   - D-pad
   - A / B / X / Y buttons
   - Start / Select buttons
-  - Right and left bumpers
 - Battery:
   - 500mAh Li-Po battery
 - Connectivity:
   - USB-C for charging and accessing storage
   - Wi-Fi and Bluetooth via STM32-C6
 - Mechanicals:
-  - 3D printed where possible
+  - Machined plastic (material TBD)
 - Software:
   - Zephyr RTOS
   - Old game console emulators
@@ -47,14 +52,6 @@ Hobby handheld game console from scratch.
 ## Hardware Block Design
 
 TODO
-
-## Mechanicals
-
-### Top View
-<img src="./doc/images/mechanicals/render-1.png">
-
-### Insides
-<img src="./doc/images/mechanicals/insides.png">
 
 ## PCBs
 
